@@ -1,0 +1,34 @@
+:root{
+    --pry:#c4e412;
+    --secd:#12e724;
+    --acnt:#086808;
+    --bckg:#2dcbe0;
+    
+}
+
+
+
+.logo{
+    font-size: 34px;
+    color: var(--pry);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+a{
+    font-weight: 600;
+    color: var(--secd);
+    text-decoration: none;
+    margin: 0 5px;
+    transition: all 200ms ease-in-out;
+}
+
+
+a:hover{
+color: var(--pry);
+border-bottom: solid 2px var(--pry);
+}

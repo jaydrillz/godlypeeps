@@ -1,0 +1,17 @@
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+image{
+    height: 500px;
+}
+h1{
+    font-size: 42px;
+}
+.txt-are{
+    width: 35%;
+    color: rgb(202, 35, 147);
+    text-align: center;
+}
